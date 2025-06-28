@@ -55,7 +55,3 @@ It was observed that the **CNN architecture gave the best results**. The model c
  - JSON stores data in a hierarchical manner, which is better for a retrieval-based chatbot, given that the chatbot would require tags and contexts.
 - A retrieval-based chatbot is trained to give the best response based on a pool of predefined answers. These predefined responses are finite in number. A tag needs to be provided for input-to-output mapping. To put it simply, the input given by the user(the context) is identified by the tag provided. **Based on the best tag that is predicted, the user is shown one of the predefined responses**. Hence, storing this kind of data in a JSON file is easier due to its compactness and hierarchical structure.
 - A CSV file has been used to store the data of the generative chatbot. **A generative chatbot doesn’t require tags to make predictions**. These data are easier to store in a CSV file since we need just two columns - input text and output text. Adding or deleting data would be easier in this case as compared to a JSON file.
-
-## Future goals
-
-I want to research the possibilities of the generative-based chatbot further. The current encoder-decoder model cannot capture all the dependencies in the decoder layer due to the compact nature of LSTM. Attention layers can be added after LSTM layers to decode each output dynamically. 
