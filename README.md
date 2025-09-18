@@ -1,6 +1,6 @@
 # Chatbot for mental health
 
-## Updates (2024)
+## Updates 
 - Fixed issues related to Python scripts not working due to outdated library versions and methods
 - Added requirements.txt for easy installation of dependencies 
 
